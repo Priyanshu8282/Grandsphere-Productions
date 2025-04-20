@@ -23,6 +23,7 @@ import creative_2 from './Dell-Technologies-Forum-Singapore-2023-PMG-1.jpg';
 import creative_3 from './KitKat-50th-anniversary-campaign-PMG-key-visual.jpg';
 import creative_4 from './PMG-Market-2.0-Innovation-Sustainability-Expo-key-visual (1).jpg';
 import creative_5 from './PMG-Philippines-Innovation-Day-2023-Second-Life-key-visual.jpg';
+import logo from './logo.png';
 
 export {
   banner,
@@ -49,6 +50,7 @@ export {
   creative_3,
   creative_4,
   creative_5,
+  logo,
 
 
 };

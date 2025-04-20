@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { logo } from '../assets';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,20 +23,20 @@ function Navbar() {
   };
 
   return (
-    <nav className=" top-0 left-0 w-full bg-white shadow-md z-50">
+    <nav className=" top-0 left-0 w-full bg-white shadow-md z-50 h-auto ">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center">
-          <div className="flex items-center space-x-7">
-            <div>
-              <Link to="/" className="flex items-center py-4">
-                <img
-                  src="https://www.pmgasia.com/public/assets/images/PMG-logo.svg"
-                  alt="PMG Logo"
-                  className="h-14 w-28"
-                />
-              </Link>
-            </div>
-          </div>
+        <div className="flex items-center space-x-7">
+  <div>
+    <Link to="/" className="flex items-center py-2">
+      <img
+        src={logo}
+        alt="Logo"
+        className="h-20 w-36" // Increased height and width
+      />
+    </Link>
+  </div>
+</div>
           <div className="hidden md:flex items-center space-x-1 flex-grow justify-center">
             <Link
               to="/"
