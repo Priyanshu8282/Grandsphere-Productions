@@ -138,7 +138,7 @@ const Home = () => {
   </div>
 </section>
 
-      {/* Clients Section */}
+      {/* Clients Section
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-20">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-center text-[#1E3A8A] mb-4">
@@ -155,7 +155,7 @@ const Home = () => {
             />
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
